@@ -1,0 +1,50 @@
+.navbar {
+
+    background-color: #fd5655;
+
+}
+
+.navbar-collapse {
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.navbar-brand {
+
+    font-size: 30px;
+    color: #ffda56;
+
+}
+
+
+.navbar-brand:hover {
+
+    font-size: 30px;
+    color: #e5c450;
+
+}
+
+.navbar-toggler {
+
+    border: 2px solid #ffda56;
+
+}
+
+.navbar-toggler:focus {
+
+    box-shadow: 0px 0px 10px #ffda56,-0px -0px 10px #ffda56;
+
+}
+
+.icon {
+
+    padding: 20px 5px;
+    color: black;
+
+}
+
