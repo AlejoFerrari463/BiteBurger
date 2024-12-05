@@ -6,7 +6,10 @@ import Item from '../Item/Item'
 const ItemList = ({produ}) => {
   return (
     <>
-    
+
+      <h1 className='text-center mt-4' >NUESTRAS BURGAS</h1>
+      <div className='contenedor-cards' >
+
       {
 
 
@@ -20,6 +23,7 @@ const ItemList = ({produ}) => {
 
       }
     
+      </div>
     </>
   )
 }

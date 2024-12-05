@@ -1,0 +1,9 @@
+.contenedor-cards {
+
+    margin-top: 20px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr;
+
+}
