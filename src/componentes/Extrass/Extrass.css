@@ -1,0 +1,43 @@
+.cards-extras {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    height: 120px;
+    background-color: #fd5655;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+    
+    font-size: 20px;
+   
+   
+
+}
+
+.cards-extras:hover {
+
+    box-shadow: 2px 5px 10px #ffda56, -2px -5px 10px #ffda56;
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+    
+
+    .cards-extras {
+       
+        width: 96%;
+        font-size: 20px;
+        padding: 2px;
+       
+    }
+
+    
+
+}

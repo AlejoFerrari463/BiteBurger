@@ -11,7 +11,7 @@ const NavBar = () => {
       <div className='envios-y-horarios' >
         Jueves a Domingo 20 a 23hs - Envios a Tigre Centro, San Fernando y Rincón!
         Transferencia o efectivo.
-        </div>
+      </div>
       <a href="https://www.instagram.com/biteburger__/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
     
     </div>

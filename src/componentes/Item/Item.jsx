@@ -30,7 +30,7 @@ const Item = ({nombre,tamaño,ingredientes,imagen,precio}) => {
   return (
 
    
-    <div className="cards mb-3" >
+    <div className="cards" >
         <div>
 
           <img className='cards-imagen' src={imagen} alt={nombre} />
@@ -43,8 +43,8 @@ const Item = ({nombre,tamaño,ingredientes,imagen,precio}) => {
             <span ref={el}></span>
           </div>
           <div>{ingredientes}</div>
-          <div>Podes pedirla : {tamaño}</div>
-          <div>{precio}</div>
+          <div>{tamaño}</div>
+          <div className='fw-bold' >{precio}</div>
 
         </div>
    
