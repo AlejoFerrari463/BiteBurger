@@ -1,23 +1,20 @@
 .navbar {
 
     background-color: #fd5655;
-
-}
-
-.navbar-collapse {
-
     display: grid;
     justify-content: center;
     align-items: center;
-    
-
 
 }
+
+
 
 .navbar-brand {
 
     font-size: 30px;
     color: #ffda56;
+    cursor: pointer;
+    margin-left: 30px;
 
 }
 
@@ -29,22 +26,67 @@
 
 }
 
-.navbar-toggler {
 
-    border: 2px solid #ffda56;
 
-}
 
-.navbar-toggler:focus {
 
-    box-shadow: 0px 0px 10px #ffda56,-0px -0px 10px #ffda56;
 
-}
+.informacion {
 
-.icon {
-
-    padding: 20px 5px;
-    color: black;
+    background-color: #fd5655;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 10px;
 
 }
 
+.fa-instagram {
+
+    font-size: 30px;
+    margin: 0px 20px;
+    color: #ffda56;
+    cursor: pointer;
+
+}
+
+.fa-instagram:hover {
+ 
+    text-shadow: 2px -5px 20px black; /* Aplica sombra al ícono */
+
+}
+
+.envios-y-horarios {
+
+
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+
+}
+
+@media screen and (max-width: 900px) {
+
+
+    .envios-y-horarios {
+
+
+        color: white;
+        font-size: 12px;
+        padding: 10px;
+    
+    }
+
+    .navbar-brand {
+    
+       
+       margin-top: 15px;
+    
+    }
+    
+
+
+}
+
+.tracking-in-contract{-webkit-animation:tracking-in-contract .8s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-contract .8s cubic-bezier(.215,.61,.355,1.000) both}

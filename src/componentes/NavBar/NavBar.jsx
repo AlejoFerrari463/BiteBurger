@@ -6,17 +6,22 @@ const NavBar = () => {
   return (
     <>
    
-   <nav className="navbar navbar-expand-lg">
-  <div className="container-fluid">
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span ><i className="icon fa-solid fa-burger fa-xl"></i></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNav">
-    <a className="navbar-brand" href="#">BiteBurger</a>
-    </div>
-  </div>
-</nav>
+    <div className='informacion' >
     
+      <div className='envios-y-horarios' >
+        Jueves a Domingo 20 a 23hs - Envios a Tigre Centro, San Fernando y Rincón!
+        Transferencia o efectivo.
+        </div>
+      <a href="https://www.instagram.com/biteburger__/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
+    
+    </div>
+
+    <nav className="navbar ">
+  
+        <h1 className='navbar-brand text-center tracking-in-contract' >
+          BiteBurger
+        </h1>
+    </nav>
     
     
     </>

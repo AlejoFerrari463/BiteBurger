@@ -1,13 +1,35 @@
 import React from 'react'
 
+import Typed from 'typed.js';
+
+import { useEffect,useRef } from 'react';
+
 import "./Item.css"
 
 
+
 const Item = ({nombre,tamaño,ingredientes,imagen,precio}) => {
+
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: [nombre],
+      typeSpeed: 100,
+      loop: false,
+     
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
+
+
   return (
 
    
-    
     <div className="cards mb-3" >
         <div>
 
@@ -17,10 +39,13 @@ const Item = ({nombre,tamaño,ingredientes,imagen,precio}) => {
 
         <div className='cards-body' >
 
-            <h3>{nombre}</h3>
-            <h5>{ingredientes}</h5>
-            <h5>Podes pedirla : {tamaño}</h5>
-            <h6>${precio}</h6>
+            <div className='cards-titulo text-light'>
+
+              <span ref={el}></span>
+              </div>
+            <div>{ingredientes}</div>
+            <div>Podes pedirla : {tamaño}</div>
+            <div>${precio}</div>
 
         </div>
    
