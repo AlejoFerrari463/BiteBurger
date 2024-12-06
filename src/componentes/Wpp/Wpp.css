@@ -1,0 +1,27 @@
+.contenedor-wpp {
+
+    position: fixed;
+    width: 150px;
+    bottom: 15px;
+    right: 10px;
+    border-radius: 100px;
+ 
+}
+
+.contenedor-wpp:hover {
+
+   filter: brightness(80%);
+ 
+}
+
+
+
+@media screen and (max-width: 600px) {
+    
+    .contenedor-wpp {
+
+        width: 95px;
+       
+    }
+
+}

@@ -33,19 +33,18 @@ const Item = ({nombre,tamaño,ingredientes,imagen,precio}) => {
     <div className="cards mb-3" >
         <div>
 
-            <img className='cards-imagen' src={imagen} alt="" />
+          <img className='cards-imagen' src={imagen} alt={nombre} />
 
         </div>
 
         <div className='cards-body' >
 
-            <div className='cards-titulo text-light'>
-
-              <span ref={el}></span>
-              </div>
-            <div>{ingredientes}</div>
-            <div>Podes pedirla : {tamaño}</div>
-            <div>${precio}</div>
+          <div className='cards-titulo text-light'>
+            <span ref={el}></span>
+          </div>
+          <div>{ingredientes}</div>
+          <div>Podes pedirla : {tamaño}</div>
+          <div>{precio}</div>
 
         </div>
    
